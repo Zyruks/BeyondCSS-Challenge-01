@@ -24,8 +24,7 @@ $size-16: 1rem;
 $size-20: 1.25rem;
 $size-32: 2rem;
 $size-36: 2.25rem;
-
-$size-700: 43.75rem;
+$size-700: 43.75rem; // Media queries
 
 *,
 *::before,
@@ -44,7 +43,7 @@ ol {
   list-style: none;
 }
 
-// base style
+/* basic style */
 
 body {
   font-size: $fs-400;
@@ -60,13 +59,14 @@ body {
   margin-inline: auto;
 }
 
-//
 .page-title {
   color: $color-primary-400;
   font-size: $fs-900;
   margin-block: $size-32;
 }
+/* basic style end  */
 
+/* card component */
 .pricing-plans {
   border: $size-8 solid $color-primary-400;
 
@@ -118,6 +118,9 @@ body {
   }
 }
 
+/* card component end */
+
+/* button component */
 .btn {
   background-color: $color-primary-400;
   color: $color-neutral-100;
@@ -139,3 +142,4 @@ body {
     background-color: rgba($color-neutral-900, 0.7);
   }
 }
+/* button component */
